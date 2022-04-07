@@ -3,7 +3,7 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 15vw 1rem 1fr 1rem 1rem 1fr 1rem 1rem 1fr 1rem 1rem 1fr 1rem 1rem 1fr 1rem 1rem 1fr 1rem 15vw;
-    grid-template-rows: 140px auto 140px;
+    grid-template-rows: 20vh auto 20vh;
 }
 
 .boxOne {
@@ -123,3 +123,12 @@ p {
     height: 2px;
     background-color: #dcdcdc;
 }
+
+@media only screen and (max-width: 1600px) {
+
+    .container {
+        grid-template-rows: 20vh auto 30vh;
+    }
+  }
+
+  
